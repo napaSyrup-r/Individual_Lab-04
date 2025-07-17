@@ -32,12 +32,12 @@ int main()
         }
     }
 
-    printf("%d -> %d\n", 0, freq[0]);
-    printf("%d -> %d\n", 1, freq[1]);
-    printf("%d -> %d\n", 2, freq[2]);
-    printf("%d -> %d\n", 3, freq[3]);
-    printf("%d -> %d\n", 4, freq[4]);
-    printf("%d -> %d\n", 5, freq[5]);
+    printf("Frequency of 0 is %d -> %d\n", 0, freq[0]);
+    printf("Frequency of 1 is %d -> %d\n", 1, freq[1]);
+    printf("Frequency of 2 is %d -> %d\n", 2, freq[2]);
+    printf("Frequency of 3 is %d -> %d\n", 3, freq[3]);
+    printf("Frequency of 4 is %d -> %d\n", 4, freq[4]);
+    printf("Frequency of 5 is %d -> %d\n", 5, freq[5]);
     
     return 0;
 }
