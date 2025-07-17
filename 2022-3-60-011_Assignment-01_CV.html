@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Complete Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eaeaea;
+      display: flex;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .cv-card {
+      background-color: white;
+      width: 800px;
+      padding: 30px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .top-section {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      background: url("https://www.w3schools.com/howto/img_avatar2.png") center center/cover no-repeat;
+      background-size: cover;
+      border-radius: 6px;
+      margin-right: 30px;
+    }
+
+    .contact-info h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .contact-info h2 {
+      margin: 5px 0 15px;
+      font-size: 18px;
+      font-style: italic;
+      font-weight: normal;
+    }
+
+    .contact-info p {
+      margin: 5px 0;
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+    }
+
+    .contact-info img {
+      width: 16px;
+      height: 16px;
+      margin-right: 8px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    td {
+      vertical-align: top;
+      padding: 6px 0;
+      font-size: 14px;
+    }
+
+    td.label {
+      width: 100px;
+      font-weight: bold;
+      font-style: italic;
+      padding-right: 10px;
+    }
+
+    .skills-table {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .skills-table td {
+      width: 50%;
+    }
+
+    .skills-table ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .skills-table li::before {
+      content: "■";
+      color: green;
+      font-size: 10px;
+      margin-right: 8px;
+    }
+
+    .job-title {
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .company {
+      color: green;
+      font-weight: normal;
+    }
+
+    .duration {
+      font-weight: normal;
+      margin-bottom: 8px;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-card">
+    <!-- Top Header -->
+    <div class="top-section">
+      <div class="profile-pic"></div>
+      <div class="contact-info">
+        <h1>Fayroz Tasnim Rowza</h1>
+        <h2>Web Developer / Designer</h2>
+        <p><img src="https://img.icons8.com/ios-filled/50/000000/address.png"/> 24/4 Khilgaon, Block-A, Dhaka-1219, Bangladesh</p>
+        <p><img src="https://img.icons8.com/ios-filled/50/000000/phone.png"/> (+88) 01234567891</p>
+        <p><img src="https://img.icons8.com/ios-filled/50/000000/email.png"/> <a href="mailto:your-email@gmail.com">2022-3-60-011@std.ewubd.edu</a></p>
+        <p><img src="https://img.icons8.com/ios-filled/50/000000/domain.png"/> <a href="http://www.my-website.com">www.my-website.com</a></p>
+        <p><img src="https://img.icons8.com/ios-filled/50/000000/twitter.png"/> @twitter-Tasnim_Rowza</p>
+      </div>
+    </div>
+
+    <!-- Lower Sections -->
+    <table>
+      <tr>
+        <td class="label">Profile:</td>
+        <td>
+         Passionate software engineer with a love for coding and problem-solving.
+	 Always learning and exploring new technologies to build efficient and 
+	 scalable solutions.
+        </td>
+      </tr>
+
+      <tr>
+        <td class="label">Skills:</td>
+        <td>
+          <table class="skills-table">
+            <tr>
+              <td>
+                <ul>
+                  <li>XHTML</li>
+                  <li>HTML5</li>
+                  <li>PHP</li>
+                  <li>JavaScript</li>
+                  <li>Magento</li>
+                  <li>WordPress</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>MySQL</li>
+                  <li>jQuery</li>
+                  <li>CMS Made Simple</li>
+                  <li>Photoshop</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="label">Experience:</td>
+        <td>
+          <div class="job-title">Web Developer / Designer</div>
+          <div class="company">Xenon Tech Company</div>
+          <div class="duration">February 2019 • Present</div>
+          <div>
+          Passionate software engineer with a love for coding and problem-solving.
+	  Always learning and exploring new technologies to build efficient 
+	  and scalable solutions.
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
